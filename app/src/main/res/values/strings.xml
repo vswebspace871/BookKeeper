@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BookKeeper</string>
+    <string name="keeper"><u>Keeper</u></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
