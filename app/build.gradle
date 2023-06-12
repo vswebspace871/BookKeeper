@@ -9,7 +9,6 @@ android {
     namespace 'com.example.bookkeeper'
     compileSdk 33
 
-
     defaultConfig {
         applicationId "com.example.bookkeeper"
         minSdk 23
