@@ -49,19 +49,12 @@ class AddTransactionActivity : AppCompatActivity() {
             }
         })
         setSupportActionBar(binding.toolbarTransaction)
+
         /** Back Arrow function on Toolbar*/
         binding.ivBackArrow.setOnClickListener {
             onBackPressedDispatcher.addCallback()
         }
-
-
-
-
-
-
     }
-
-
 }
 
 private fun OnBackPressedDispatcher.addCallback() {

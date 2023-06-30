@@ -12,13 +12,10 @@ class MyApplication: Application() {
         instance = this
     }
 
-
     companion object {
         //private lateinit var appContext: Context
         lateinit var database:UserDatabase
         lateinit var instance: MyApplication
-
-
         fun getUserRepository(context: Context?): UserRepository {
             database = UserDatabase.getDatabase(context!!.applicationContext)
             //initialise notes repository
